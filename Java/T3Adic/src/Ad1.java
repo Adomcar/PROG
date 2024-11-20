@@ -35,5 +35,6 @@ public class Ad1 {
         System.out.printf("%-10s   %8.2f\n","Impuesto:                ", Imp);
         System.out.printf("%-10s   %8.2f\n","Total con impuestos:     ", Total);
 
+        sc.close();
     }
 }

@@ -16,5 +16,7 @@ public class T3E1 {
 
         System.out.println("La multiplicacion de los dos numeros es: " + mult);
 
+        sc.close();
+
     }
 }

@@ -16,5 +16,6 @@ public class T3E6 {
 
         System.out.print("El area del triangulo es: " + area);
 
+        sc.close();
     }
 }

@@ -15,5 +15,6 @@ public class T3E5 {
 
         System.out.print("El area del rectangulo es: " + area);
 
+        sc.close();
     }
 }

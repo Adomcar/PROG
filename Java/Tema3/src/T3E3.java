@@ -10,5 +10,7 @@ public class T3E3 {
         euro = peseta * 0.006;
 
         System.out.println(euro + "euros");
+
+        sc.close();
     }
 }

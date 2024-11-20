@@ -12,5 +12,6 @@ public class T3E7 {
 
         System.out.println("Esta es el total de la factura: " + baseimponible);
 
+        sc.close();
     }
 }

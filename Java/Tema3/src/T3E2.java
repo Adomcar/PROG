@@ -11,5 +11,6 @@ public class T3E2 {
     
         System.out.println(peseta);
 
+        sc.close();
     }
 }

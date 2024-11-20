@@ -22,6 +22,6 @@ public class T3E4 {
         System.out.println("Multiplicacion: " + mult);
         System.out.println("Division: " + div);
 
-        
+        sc.close();
     }
 }

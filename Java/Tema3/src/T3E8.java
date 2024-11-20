@@ -12,5 +12,6 @@ public class T3E8 {
 
         System.out.println("Su salario semanal es: " + total);
 
+        sc.close();
     }
 }
