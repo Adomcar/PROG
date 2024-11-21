@@ -32,7 +32,7 @@ public class Ej21 {
         System.out.println("La media de los impares es: " + media);
         System.out.println("El mayor de los pares es: " + maxpar);
         
-        sc.close();
+        sc.close(); 
     
     }
     
