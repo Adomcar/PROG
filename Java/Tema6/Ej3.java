@@ -1,4 +1,4 @@
-package Java.Tema6;
+package PROG.Java.Tema6;
 
 public class Ej3 {
     public static void main(String[] args) {
