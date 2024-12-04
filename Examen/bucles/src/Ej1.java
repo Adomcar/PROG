@@ -68,6 +68,11 @@ public class Ej1 {
         sc.close();
     }
 
+    /**
+     * 
+     * @param contraseña
+     * @return
+     */
     public static boolean contieneCaracEsp(String contraseña) {
         String caracteresEspeciales = "!@#$%^&*()-_+=<>?/.,;:";
         for (int i = 0; i < contraseña.length(); i++) {
@@ -78,6 +83,11 @@ public class Ej1 {
         return false;
     }
 
+    /**
+     * 
+     * @param contraseña
+     * @return
+     */
     public static boolean contieneMayuscula(String contraseña) {
         for (int i = 0; i < contraseña.length(); i++) {
             if (Character.isUpperCase(contraseña.charAt(i))) {
@@ -87,6 +97,11 @@ public class Ej1 {
         return false;
     }
 
+    /**
+     * 
+     * @param contraseña
+     * @return
+     */
     public static boolean contieneMinuscula(String contraseña) {
         for (int i = 0; i < contraseña.length(); i++) {
             if (Character.isLowerCase(contraseña.charAt(i))) {
@@ -96,6 +111,11 @@ public class Ej1 {
         return false;
     }
 
+    /**
+     * 
+     * @param contraseña
+     * @return
+     */
     public static boolean contieneNumeros(String contraseña) {
         for (int i = 0; i < contraseña.length(); i++) {
             if (Character.isDigit(contraseña.charAt(i))) {
@@ -105,6 +125,11 @@ public class Ej1 {
         return false;
     }
 
+    /**
+     * 
+     * @param contraseña
+     * @return
+     */
     public static boolean contieneEspacios(String contraseña) {
         for (int i = 0; i < contraseña.length(); i++) {
             if (contraseña.charAt(i) == ' ') {
